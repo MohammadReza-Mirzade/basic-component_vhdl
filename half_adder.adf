@@ -22,9 +22,11 @@ FAMILY=
 /adder_2bit.vhd=-1
 /mux4to1.vhd=-1
 /dec3to8.vhd=-1
+/mux2to1.vhd=-1
 [Files.Data]
 .\src\half_adder.vhd=VHDL Source Code
 .\src\full_adder.vhd=VHDL Source Code
 .\src\adder_2bit.vhd=VHDL Source Code
 .\src\mux4to1.vhd=VHDL Source Code
 .\src\dec3to8.vhd=VHDL Source Code
+.\src\mux2to1.vhd=VHDL Source Code

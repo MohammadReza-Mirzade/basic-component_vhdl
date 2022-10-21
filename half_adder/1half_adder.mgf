@@ -276,3 +276,26 @@ V 000048 55 901           1666389494162 dec3to8
 	)
 	(_model . dec3to8 1 -1)
 )
+V 000048 55 635           1666389810846 mux2to1
+(_unit VHDL(mux2to1 0 28(mux2to1 0 39))
+	(_version vef)
+	(_time 1666389810847 2022.10.22 01:33:30)
+	(_source(\../src/mux2to1.vhd\))
+	(_parameters tan)
+	(_code 4143474245171d52424e551b464240471546444649)
+	(_ent
+		(_time 1666389810844)
+	)
+	(_object
+		(_port(_int a -1 0 30(_ent(_in))))
+		(_port(_int b -1 0 31(_ent(_in))))
+		(_port(_int s -1 0 32(_ent(_in))))
+		(_port(_int c -1 0 33(_ent(_out))))
+		(_prcs
+			(line__42(_arch 0 0 42(_prcs(_simple)(_trgt(3))(_sens(0)(1)(2)))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . mux2to1 1 -1)
+)

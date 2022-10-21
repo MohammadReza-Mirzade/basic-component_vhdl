@@ -3,3 +3,4 @@ i<>.\src\full_adder.vhd
 i<>.\src\adder_2bit.vhd
 i<>.\src\mux4to1.vhd
 i<>.\src\dec3to8.vhd
+i<>.\src\mux2to1.vhd
