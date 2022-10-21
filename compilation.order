@@ -5,3 +5,4 @@
 .\src\dec3to8.vhd
 .\src\mux2to1.vhd
 .\src\dec2to4.vhd
+.\src\dflipflop.vhd

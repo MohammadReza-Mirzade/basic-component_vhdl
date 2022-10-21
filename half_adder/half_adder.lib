@@ -1,13 +1,13 @@
-timestamp=1666390184714
+timestamp=1666390859320
 
 [~A]
-ModifyID=14
+ModifyID=17
 Version=74
 
 [~MFT]
-0=3|0half_adder.mgf|10273|1058
-1=1|1half_adder.mgf|8601|3047
-3=1|3half_adder.mgf|1812|0
+0=7|0half_adder.mgf|12656|2113
+1=2|1half_adder.mgf|10235|3765
+3=1|3half_adder.mgf|2171|0
 
 [adder_2bit]
 A/adder_2bit=21|../src/adder_2bit.vhd|40|1*3875
@@ -40,6 +40,17 @@ M/dec3to8=21|2|vef|1666389494161|../src/dec3to8.vhd|0*7311*0x2f7d9f935b3e607ee0c
 R=../src/dec3to8.vhd|28
 Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|ae17a82c9cfa0380839e6315817b5f8c26527262ddaa47cb266f3a3c4d9b973aa12098e9e512747a784bb8a194f8f7dd
 Version/dec3to8=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|ae17a82c9cfa0380839e6315817b5f8c26527262ddaa47cb266f3a3c4d9b973a8a427cd6bf64c8db98eb0025d2add846
+
+[dflipflop]
+A/dflipflop=21|../src/dflipflop.vhd|40|1*10235
+BinW64/dflipflop=3*2171
+I=0*12085
+I/dflipflop=0*12656
+M=11|2|vef|1666390752703|../src/dflipflop.vhd|0*11727*0x1c79cfcf71866026b5e596eed29ade463e980b3c|0*12002*0x23b75c12e3e89f2ef000564498faa8c2
+M/dflipflop=21|2|vef|1666390859306|../src/dflipflop.vhd|0*12288*0xbaffc0e3ae2feba3a50ea56f724cc2518ad115d5|0*12560*0x20116f55b147878295aeff36dce7fc50
+R=../src/dflipflop.vhd|28
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|3a67d30d807d773d6fff614f8e657a86030c5f4de3ffa3c97f58c5528f1d791397b4a6d88d3cd8affaed23446ddd12c7
+Version/dflipflop=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|3a67d30d807d773d6fff614f8e657a86030c5f4de3ffa3c97f58c5528f1d7913b75f7c483c41c54dc2ad50244286abfc
 
 [full_adder]
 A/full_adder=21|../src/full_adder.vhd|40|1*1565
@@ -89,6 +100,7 @@ Version/mux4to1=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|55399d8
 adder_2bit=11|0*3127|
 dec2to4=11|0*9158|
 dec3to8=11|0*6608|
+dflipflop=11|0*11537|
 full_adder=11|0*1237|
 half_adder=11|0*0|
 mux2to1=11|0*7947|
