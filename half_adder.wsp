@@ -19,6 +19,6 @@ FileTimeLow=275762210
 FileTimeHigh=30991756
 Status=Compiled
 [COMPILESTATUS|.\src\adder_2bit.vhd]
-FileTimeLow=2251932137
-FileTimeHigh=30991760
-Status=Compiled
+FileTimeLow=2297408309
+FileTimeHigh=30991764
+Status=Modified
