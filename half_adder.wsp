@@ -74,3 +74,7 @@ WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////80AAACZAAAAPQUAAIICAAA
 FileTimeLow=4102537283
 FileTimeHigh=30991768
 Status=Compiled
+[COMPILESTATUS|.\src\dec2to4.vhd]
+FileTimeLow=3516684280
+FileTimeHigh=30991769
+Status=Compiled
