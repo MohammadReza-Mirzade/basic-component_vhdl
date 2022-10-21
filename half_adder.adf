@@ -19,6 +19,8 @@ FAMILY=
 [Files]
 /half_adder.vhd=-1
 /full_adder.vhd=-1
+/adder_2bit.vhd=-1
 [Files.Data]
 .\src\half_adder.vhd=VHDL Source Code
 .\src\full_adder.vhd=VHDL Source Code
+.\src\adder_2bit.vhd=VHDL Source Code

@@ -1,0 +1,61 @@
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -e 100 -work half_adder -2002  $dsn/src/half_adder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/Users/moham/ActiveHdlProjects/My_Designs/ui/UI/half_adder/src/half_adder.vhd
+# Compile Entity "half_adder"
+# Compile Architecture "half_adder" of Entity "half_adder"
+# Top-level unit(s) detected:
+# Entity => half_adder
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+acom -O3 -e 100 -work half_adder -2002  $dsn/src/full_adder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/Users/moham/ActiveHdlProjects/My_Designs/ui/UI/half_adder/src/full_adder.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "full_adder" of Entity "full_adder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work half_adder -2002  $dsn/src/full_adder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/Users/moham/ActiveHdlProjects/My_Designs/ui/UI/half_adder/src/full_adder.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "full_adder" of Entity "full_adder"
+# Error: COMP96_0015: full_adder.vhd : (42, 1): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work half_adder -2002  $dsn/src/full_adder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/Users/moham/ActiveHdlProjects/My_Designs/ui/UI/half_adder/src/full_adder.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "full_adder" of Entity "full_adder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+git -help
+# Error: invalid command name git
+git --help
+# Error: invalid command name git
+acom -O3 -e 100 -work half_adder -2002  $dsn/src/adder_2bit.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/Users/moham/ActiveHdlProjects/My_Designs/ui/UI/half_adder/src/adder_2bit.vhd
+# Compile Entity "adder_2bit"
+# Compile Architecture "adder_2bit" of Entity "adder_2bit"
+# Error: COMP96_0078: adder_2bit.vhd : (54, 17): Unknown identifier "fulladder".
+# Error: COMP96_0134: adder_2bit.vhd : (54, 17): Cannot find component declaration.
+# Error: COMP96_0078: adder_2bit.vhd : (63, 15): Unknown identifier "fulladder".
+# Error: COMP96_0134: adder_2bit.vhd : (63, 15): Cannot find component declaration.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work half_adder -2002  $dsn/src/adder_2bit.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/Users/moham/ActiveHdlProjects/My_Designs/ui/UI/half_adder/src/adder_2bit.vhd
+# Compile Entity "adder_2bit"
+# Compile Architecture "adder_2bit" of Entity "adder_2bit"
+# Error: COMP96_0078: adder_2bit.vhd : (60, 3): Unknown identifier "c".
+# Error: COMP96_0133: adder_2bit.vhd : (60, 3): Cannot find object declaration.
+# Error: COMP96_0112: adder_2bit.vhd : (60, 3): "c" does not match the formal name.
+# Error: COMP96_0078: adder_2bit.vhd : (69, 3): Unknown identifier "c".
+# Error: COMP96_0133: adder_2bit.vhd : (69, 3): Cannot find object declaration.
+# Error: COMP96_0112: adder_2bit.vhd : (69, 3): "c" does not match the formal name.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work half_adder -2002  $dsn/src/adder_2bit.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/Users/moham/ActiveHdlProjects/My_Designs/ui/UI/half_adder/src/
