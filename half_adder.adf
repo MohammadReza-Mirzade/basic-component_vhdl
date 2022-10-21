@@ -1,0 +1,24 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=half_adder
+[Library]
+half_adder=.\half_adder\half_adder.lib
+[$LibMap$]
+half_adder=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=
+[Files]
+/half_adder.vhd=-1
+/full_adder.vhd=-1
+[Files.Data]
+.\src\half_adder.vhd=VHDL Source Code
+.\src\full_adder.vhd=VHDL Source Code

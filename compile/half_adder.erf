@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: D:/Users/moham/ActiveHdlProjects/My_Designs/ui/UI/half_adder/src/full_adder.vhd" 
+MESSAGE "Compile Entity "full_adder"" 
+MESSAGE "Compile Architecture "full_adder" of Entity "full_adder"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]" 
