@@ -1,7 +1,9 @@
-5
+9
 ~E 1 "../src/adder_2bit.vhd" 28 adder_2bit
 ~A 1 "../src/adder_2bit.vhd" 40 adder_2bit
 ~E 1 "../src/full_adder.vhd" 28 full_adder
 ~A 1 "../src/full_adder.vhd" 40 full_adder
 ~E 1 "../src/half_adder.vhd" 28 half_adder
 ~A 1 "../src/half_adder.vhd" 39 half_adder
+~E 1 "../src/mux4to1.vhd" 28 mux4to1
+~A 1 "../src/mux4to1.vhd" 38 mux4to1

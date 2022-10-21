@@ -1,5 +1,5 @@
 WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
-MESSAGE "File: D:/Users/moham/ActiveHdlProjects/My_Designs/ui/UI/half_adder/src/adder_2bit.vhd" 
-MESSAGE "Compile Entity "adder_2bit"" 
-MESSAGE "Compile Architecture "adder_2bit" of Entity "adder_2bit"" 
+MESSAGE "File: D:/Users/moham/ActiveHdlProjects/My_Designs/ui/UI/half_adder/src/mux4to1.vhd" 
+MESSAGE "Compile Entity "mux4to1"" 
+MESSAGE "Compile Architecture "mux4to1" of Entity "mux4to1"" 
 SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

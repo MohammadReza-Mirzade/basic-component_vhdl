@@ -21,4 +21,8 @@ Status=Compiled
 [COMPILESTATUS|.\src\adder_2bit.vhd]
 FileTimeLow=2297408309
 FileTimeHigh=30991764
-Status=Modified
+Status=Compiled
+[COMPILESTATUS|.\src\mux4to1.vhd]
+FileTimeLow=3824791653
+FileTimeHigh=30991766
+Status=Compiled
