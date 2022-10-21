@@ -1,13 +1,13 @@
-timestamp=1666388925767
+timestamp=1666389494176
 
 [~A]
-ModifyID=9
+ModifyID=11
 Version=74
 
 [~MFT]
-0=8|0half_adder.mgf|6399|1058
-1=2|1half_adder.mgf|6115|3047
-3=2|3half_adder.mgf|732|0
+0=3|0half_adder.mgf|7738|1058
+1=1|1half_adder.mgf|6969|3047
+3=1|3half_adder.mgf|1098|0
 
 [adder_2bit]
 A/adder_2bit=21|../src/adder_2bit.vhd|40|1*3875
@@ -18,6 +18,17 @@ M/adder_2bit=21|2|vef|1666388468312|../src/adder_2bit.vhd|0*3945*0x9742c38e9901b
 R=../src/adder_2bit.vhd|28
 Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|b4c6cb2a1f760f986c401a27357bdf390fb4a6f7a8ec8f51a3ca499bc69ed480405f96ddf880556ae52f4026a84e9ebc
 Version/adder_2bit=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|b4c6cb2a1f760f986c401a27357bdf390fb4a6f7a8ec8f51a3ca499bc69ed4801bdda1a161bd4a8c3b11dfe89c2e5e23
+
+[dec3to8]
+A/dec3to8=21|../src/dec3to8.vhd|37|1*6969
+BinW64/dec3to8=3*1098
+I=0*7110
+I/dec3to8=0*7738
+M=11|2|vef|1666389401406|../src/dec3to8.vhd|0*6797*0x2a8c0363062d20553d8e57f764781e250a5b4720|0*7031*0x23b75c12e3e89f2ef000564498faa8c2
+M/dec3to8=21|2|vef|1666389494161|../src/dec3to8.vhd|0*7311*0x2f7d9f935b3e607ee0ce2400b09451b09b3d318d|0*7648*0x20116f55b147878295aeff36dce7fc50
+R=../src/dec3to8.vhd|28
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|ae17a82c9cfa0380839e6315817b5f8c26527262ddaa47cb266f3a3c4d9b973aa12098e9e512747a784bb8a194f8f7dd
+Version/dec3to8=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|ae17a82c9cfa0380839e6315817b5f8c26527262ddaa47cb266f3a3c4d9b973a8a427cd6bf64c8db98eb0025d2add846
 
 [full_adder]
 A/full_adder=21|../src/full_adder.vhd|40|1*1565
@@ -54,6 +65,7 @@ Version/mux4to1=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|55399d8
 
 [~U]
 adder_2bit=11|0*3127|
+dec3to8=11|0*6608|
 full_adder=11|0*1237|
 half_adder=11|0*0|
 mux4to1=11|0*4836|

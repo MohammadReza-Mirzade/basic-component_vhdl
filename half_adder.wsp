@@ -26,3 +26,7 @@ Status=Compiled
 FileTimeLow=3824791653
 FileTimeHigh=30991766
 Status=Compiled
+[COMPILESTATUS|.\src\dec3to8.vhd]
+FileTimeLow=918145610
+FileTimeHigh=30991768
+Status=Compiled
